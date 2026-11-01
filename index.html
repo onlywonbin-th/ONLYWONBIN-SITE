@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ONLYWONBIN SITE</title>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="site-loading" id="siteLoading">
+  <div class="site-loading-inner">
+    <img
+      src="pics/loading.PNG"
+      class="site-loading-img"
+      alt="ONLYWONBIN"
+    >
+    <div class="site-loading-title">
+      ONLYWONBIN TH
+    </div>
+    <p class="site-loading-desc">
+      🐈‍⬛🎸 𝐖𝐄’𝐑𝐄 𝐓𝐇𝐀𝐈𝐋𝐀𝐍𝐃 𝐅𝐀𝐍𝐁𝐀𝐒𝐄 𝐅𝐎𝐑
+      <span>#WONBIN</span>
+      <span>#원빈</span>
+      ⭐️
+      𝙁𝙍𝙊𝙈
+      <span>#RIIZE</span>
+      <span>#라이즈</span>
+    </p>
+    <div class="site-loading-dots">
+      <i></i>
+      <i></i>
+      <i></i>
+    </div>
+    <small class="site-loading-text">
+      LOADING...
+    </small>
+  </div>
+</div>
+<div class="stage" id="stage">
+ <h1><span class="a">W</span><span class="b">ONBI</span><span class="a">n</span><small>ONLYWONBIN TH · VOTE · CALENDAR </small></h1>
+</div>
+<div class="dock" id="dock"></div>
+<div class="ov" id="ov"><div class="lbl" id="ttl"></div><div class="win"><div class="bar"><button aria-label="ปิด" id="x"></button><b class="y"></b><b class="g"></b></div><div class="bd" id="bd"></div></div></div>
+<div class="ov on" id="ann" style="z-index:30;background:rgba(0,0,0,.35)"><div class="win" style="width:min(460px,100%)"><div class="bar"><button id="ax" aria-label="close"></button><b class="y"></b><b class="g"></b></div><div class="bd" style="text-align:center"><div style="font-size:40px">📢</div><h2 id="at" style="margin:6px 0"></h2><img
+  id="ai"
+  src=""
+  alt="ประกาศ"
+  style="
+    display:none;
+    width:100%;
+    max-width:500px;
+    height:auto;
+    margin:14px auto 18px;
+    object-fit:contain;
+    border-radius:12px;
+  "
+>
+<p id="ab" style="line-height:1.6;white-space:pre-line"></p><button class="btn" id="ok" style="border:0;cursor:pointer;margin-top:6px">รับทราบ / เข้าสู่เว็บไซต์</button></div></div></div>
+
+<div class="call-screen" id="callScreen">
+  <div class="call-card">
+
+    <div class="call-status" id="callStatus">
+      INCOMING CALL...
+    </div>
+
+    <div class="call-avatar-wrap">
+      <img
+        src="pics/wonbin-call.jpg"
+        alt="WONBIN"
+        class="call-avatar"
+      >
+
+      <span class="call-ring"></span>
+    </div>
+
+    <h2>WONBIN</h2>
+    <p id="callText">WONBIN is calling you... ♡</p>
+<div
+  class="call-message"
+  id="callMessage"
+></div>
+    <div class="call-actions" id="incomingActions">
+
+      <button
+        class="call-btn decline"
+        id="declineCall"
+        type="button"
+      >
+        <span>✕</span>
+        <small>Decline</small>
+      </button>
+
+      <button
+        class="call-btn accept"
+        id="acceptCall"
+        type="button"
+      >
+        <span>☎</span>
+        <small>Accept</small>
+      </button>
+
+    </div>
+
+    <div
+      class="call-actions active-call-actions"
+      id="activeCallActions"
+    >
+      <button
+        class="call-btn decline"
+        id="endCall"
+        type="button"
+      >
+        <span>☎</span>
+        <small>End</small>
+      </button>
+    </div>
+
+  </div>
+</div>
+<div class="wonbin-toast" id="wonbinToast">
+  <div class="wonbin-toast-icon">🎸</div>
+
+  <div class="wonbin-toast-body">
+    <b>WONBIN</b>
+    <p id="wonbinToastText"></p>
+  </div>
+</div>
+<audio
+  id="wonbinBye"
+  src="audio/wonbin-bye.mp3"
+  preload="auto"
+></audio>
+<audio
+  id="callRingtone"
+  src="audio/ringtone.mp3"
+  preload="auto"
+  loop
+></audio>
+<audio
+  id="wonbinVoice"
+  src="audio/wonbin-call.mp3"
+  preload="auto"
+></audio>
+<script src="js/app.js"></script>
+</body>
+</html>
