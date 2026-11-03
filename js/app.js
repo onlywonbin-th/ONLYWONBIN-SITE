@@ -17,8 +17,8 @@ fromWonbin: {
   }
 },
   game: {
-    d: 'riize-2048',
-    u: 'https://riize-2048.vercel.app/',
+    d: 'RIIZE AIR Certificate',
+    u: 'https://riize-air.pages.dev/',
     img: ''
   },
 
@@ -297,7 +297,7 @@ const V = {
 
       <iframe
         src="${esc(CFG.game.u)}"
-        title="RIIZE 2048"
+        title="RIIZE AIR Certificate"
         loading="lazy"
         allow="fullscreen"
       ></iframe>
@@ -305,7 +305,7 @@ const V = {
       <div class="game-actions">
 
         <span>
-          🎮 RIIZE 2048
+          🎮 RIIZE AIR Certificate
         </span>
 
         <a
@@ -314,7 +314,7 @@ const V = {
           target="_blank"
           rel="noopener"
         >
-          เปิดเกมเต็มจอ ↗
+          เปิดเต็มจอ ↗
         </a>
 
       </div>
